@@ -3,7 +3,7 @@ layout: post
 title: 자료형 정리!!
 date: 2024-04-05 19:00 +0900
 description: 자료형 정리를 해봅시다
-image: 
+image: ../assets/img/datatype.jpg
 category: 자료형
 tags: 자료형 자바스크립트
 published: true
