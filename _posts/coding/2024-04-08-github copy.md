@@ -1,30 +1,30 @@
 ---
 layout: post
-title: 배경(Background)명령어 정리
+title: 깃헙 셋팅 및 여러가지 기능
 date: 2024-04-08 16:32 +0900
-description: 백그라운드 명령어를 정리해봅시다
+description: 깃헙에 필요한 여러가지 설정을 합니다.
 image: ../assets/img/Github.jpg
 category: javascript
-tags: Background 배경
+tags: Githup Git 깃헙
 published: true
 sitemap: true
 ---
 
-# 배경(Background)
-배경의 색상, 이미지, 반복 여부, 위치, 고정 여부 등을 각각 기술할 수도 있고, 이 모든 속성을 한 줄로 표기할 수도 있습니다.
+# Github을 편하게 써보자!!
 
+git은 소스 코드 버전 관리 시스템(VCS, Version Control System) 중 하나로, 소프트웨어 개발에서 코드의 변경 이력을 효과적으로 관리할 수 있게 해주는 도구입니다. Git을 사용하면 여러 개발자들이 동시에 작업하고 있는 프로젝트에서 발생하는 코드의 수정, 추가, 삭제 등의 변경 사항을 효율적으로 추적하고 관리할 수 있습니다.
 
-## backgrund-color
-요소의 배경 색상을 지정하는 속성으로, 다음과 같이 표현합니다.
-````
-background-color: #원하는 색상코드;
-````
-||속성값||속성설명
-||색상값||색상명, HEX값, RGB값, HSL값, RGBA값, HSLA값
-||tranparent||투명(기본값)
+## Github 초기 설정
 
+깃헙은 커밋할 때 마다 사용자 정보를 기록하고, 편집기 설정에 따라 메세지를 작성할 수 있습니다.
 
 ## 작업프롬포트에서 Github 버전 확인하기
+
+터미널을 열어서 버전확인 하고, 없으면 인터넷에 Git검색하고 다운로드 해야됩니다.
+
+![51512](https://github.com/skadbstj12/skadbstj12.github.io/assets/163810643/10082b6f-e618-4bc0-8693-08cfbc8713af)
+
+다운로드를 완료했다면 한번 버전을 확인해 봅시다.
 
 ````bash
 git --version
