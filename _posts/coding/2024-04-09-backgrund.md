@@ -208,8 +208,7 @@ background-position: 50% 30%;
 
 </code></pre>
 
-</div>
-</details>
+
 
 ※ padding-bottom: 30px;은 하단의 배경 자리 확보를 위해 아래 여백을 30px 주라는 뜻입니다.</br>
 ※ padding: 0 20px;은 좌츽의 배경 자리 확보를 위해 좌우 여백을 각각 20px 주라는 뜻입니다.</br>
@@ -223,6 +222,9 @@ background-position: 50% 30%;
 ⑦ li 요소의 배경 이미지를 가로로는 왼쪽에, 세로로는 가운데 배치함</br>
 ⑧ 두 번째 요소였던 ul의 li에만 따로 속성을 부여함</br>
 ⑨ 두 번째 요소였던 ul의 li에만 배경 이미지를 (**이미지 이름**)으로 지정함
+
+</div>
+</details>
 
 # <span style="color:Navy">05 backgrund-attachment
 <details>
