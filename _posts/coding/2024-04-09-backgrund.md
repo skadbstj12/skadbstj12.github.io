@@ -368,41 +368,173 @@ background: url(이미지이름) no-repeat center / cover;
 <summary>접기/펼치기 버튼</summary>
 <div markdown="7">
 
+CSS3 에서 배경 이미지의 시작점을 정하는 속성으로, 다음과 같이 표현합니다
+````
+background-origin: border-box;
+````
+
+|**속성값**|**속성설명**|
+|:-----:|:---:|
+|**border-box**| 배경 이미지가 테두리의 좌측 상단 모퉁이에서 시작함
+|**paadding-box**| 배경 이미지가 안여백의 좌측 상단 모퉁이에서 시작함 (기본값)
+|**content-box**| 배경 이미지가 콘텐츠의 좌측 상단부터 시작함
+
+</br>
+다음 예제에서는 위 세 영역이 구체적으로 어디인지 보여주고 있습니다.
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;배경이미지의 원점&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+       .div {
+          width: 550px;
+          <p style="color: black;background-color: yellow; display: inline;">padding: 25px;</p>
+          magin-bottom: 20px;
+          <p style="color: black;background-color: yellow; display: inline;">border: 15px double rgba(0,0,0,0,6);</p>
+          background: url(이미지 위치) no-repeat;
+       }
+         .ori1{① <p style="color: black;background-color: yellow; display: inline;">background-origin: border-boxx;</p> }
+         .ori2{② <p style="color: black;background-color: yellow; display: inline;">background-origin: padding-box;</p>}
+         .ori3{③ <p style="color: black;background-color: yellow; display: inline;">background-origin: content-box;</p>}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+      &lt;div class="ori1"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+      &lt;div class="ori2"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+      &lt;div class="ori3"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+ ① border: 15px double rgba(0,0,0,0,6);는 반투명한 검정색으로 15px 굵기의 테두리를 치라는 의미입니다.</br>
+ ② 배경 이미지가 좌측 상단 테두리를 포함한 영역부터 채워짐</br>
+ ③ 배경 이미지가 좌측 상단 테두리를 제외한 안쪽부터 채워짐</br>
+ ④ 배경 이미지가 좌측 상단 여백을 제외한 안쪽부터 채워짐</br>
+
+
 </div>
 </derails>
 
-# <span style="color:Navy"> 08 background-clip
+# 08<span style="color:Navy"> background-clip
 
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="8">
 
+CSS3에서 배경의 영역을 정하는 속성으로, 다음과 같이 표현합니다.
+````
+background-clip: border-box;
+````
+
+|**속성값**|**속성설명**|
+|:-----:|:---:|
+|**border-box**| 배경이 테두리를 포함한 영역에 배치 (기본값)
+|**paadding-box**| 배경이 테두리를 제외한 안쪽 영역에 배치됨
+|**content-box**| 배경이 안여백을 제외한 콘텐츠 영역에만 배치됨
+</br>
+다음 예제에서는 위 세 영역이 구체적으로 어디인지 보여주고 있습니다.
+</br>
+</br>
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;배경이미지의 영역&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+       .div {
+          width: 550px;
+          padding: 25px;
+          magin-bottom: 20px;
+       >border: 15px double rgba(0,0,0,0,6);
+          background: #e5cadd;
+       }
+         .clip1{① <p style="color: black;background-color: yellow; display: inline;">background-clip: border-boxx;</p> }
+         .clip2{② <p style="color: black;background-color: yellow; display: inline;">background-clip: padding-box;</p>}
+         .clip3{③ <p style="color: black;background-color: yellow; display: inline;">background-clip: content-box;</p>}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+      &lt;div class="clip1"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+      &lt;div class="clip2"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+      &lt;div class="clip3"&gt;It's impossible not only stating good but also keeping it firm!!&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+① 배경이 테두리를 포함한 영역에 채워짐</br>
+② 배경이 테두리를 제외한 안쪽 영역에 채워짐</br>
+③ 배경이 여백을 제외한 콘텐츠 영역에 채워짐</br>
+
+
 </div>
 </derails>
 
-# <span style="color:Navy"> 09 Image Sprite
+
+# 09<span style="color:Navy"> Image Sprite
 
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="9">
 
-</div>
-</derails>
+이미지가 많아지면 웹페이지의 로딩 속도도 느려집니다. 웹페이지의 로딩 속도를 줄여주기 위해 배경으로 사용할 여러 이미지들을 하나로 저장하고 **background-position**을 이용하여 잘라 사용하는 것이 **image sprite**입니다.
+</br>
 
-# <span style="color:Navy"> 10 배경에 gradient 적용하기
+만약 세 번째 이미지만 추출하여 사용하려 할 때 **background-position** 은 몇일까요? 많은 사람들이 0 200px; 일거라고 생각하지만 반대입니다.
 
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="10">
+세로 값 양수는 이미지 판을 아래 방향으로 밀어 내린다는 뜻이고, 음수는 위로 밀어 올린다는 뜻입니다. 이미지를 잘라내기 위한 칼은 그대로 있고 바닥 이미지를 움직이는 격입니다. 따라서 세 번째 아이콘
+을 잘라낸다는 것은 이미지를 **위로 200px** 밀어야 한다는 뜻이기 때문에 정답은 **background-position: 0 -200px**;입니다.
+</br>
+</br>
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;배경이미지의 영역&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+       li { ① <p style="color: black;background-color: yellow; display: inline;">list-style-type: none;</p>
+            margin 5px;
+          }
 
-</div>
-</derails>
+       .lnb li a {
+<p style="color: red;background-color: skyblue; display: inline;">display: block;</p>
+<p style="color: red;background-color: skyblue; display: inline;">padding-left: 30px;</p>
+          text-decoration: none;
+          font: 25px Times;
+          color #000;
+          background: url(이미지 위치) no-repeat;
+          ② background-size: 26px 176px;
+        }
+        ③  <p style="color: black;background-color: yellow; display: inline;">.lnb li:nth-child(1) a {background-position: 0 0;}</p>
+        ④  <p style="color: black;background-color: yellow; display: inline;">.lnb li:nth-child(2) a {background-position: 0 -50px;}</p>
+        ⑤  <p style="color: black;background-color: yellow; display: inline;">.lnb li:nth-child(3) a {background-position: 0 -100;}</p>
+        ⑥  <p style="color: black;background-color: yellow; display: inline;">.lnb li:nth-child(4) a {background-position: 0 -150;}</p>
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+      &lt;ul class="lnb"&gt;
+       &lt;li&gt;&lt;a href="#"&gt;Theater&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;Secret Garden&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;Concert Hall&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;Animal Farm&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
-# <span style="color:Navy"> 11 mulriple background
-
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="11">
+① 목록의 고유 글머리 기호를 제거함</br>
+② 이미지의 크기를 원래 사이즈 52px X 352px의 1/2로 줄임</br>
+③ 첫 번째 메뉴 Theater 앞의 보라색 배경 이미지가 이미지의 좌측 상단에 있으므로 0 0</br>
+④ 두 번째 메뉴 Secret Garden 앞의 남색 배경 이미지가 상단으로부터 100px 아래에 있으므로 0 -100px이어야겠지만
+이미지 사이즈를 반으로 줄였으므로 이 길이도 반으로 줄어서 0, -50px</br>
+⑤ 같은 맥락에서 세 번째 메뉴는 0 -200px이 아닌 0 -100px</br>
+⑥ 네 번째 메뉴도 0 -300px이 아닌 0 -150px</br>
 
 </div>
 </derails>
