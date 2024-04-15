@@ -3,7 +3,7 @@ layout: post
 title: 배경(Background)명령어 정리
 date: 2024-04-09 17:42 +0900
 description: 백그라운드 명령어를 정리해봅시다
-image: ../assets/img/Github.jpg
+image: ../assets/img/background.jpg
 category: javascript
 tags: Background 배경
 published: true
