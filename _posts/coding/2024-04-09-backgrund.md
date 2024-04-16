@@ -23,7 +23,7 @@ sitemap: true
 background-color: #원하는 색상코드;
 ````
 |**속성값**|**속성설명**|
-|:-----:|:---:|
+|-----|----|
 |**색상값**|<span style="color:blue"> 색상명, HEX값, RGB값, HSL값, RGBA값, HSLA값
 |**tranparent**|<span style="color:blue"> 투명(기본값)
 
