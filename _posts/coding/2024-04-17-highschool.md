@@ -3,7 +3,7 @@ layout: post
 title: 고등학교 자퇴 후기
 date: 2024-04-17 23:48 +0900
 description: 고등학교 자퇴 후기를 남겨보겠습니다.
-image: ../assets/img/highshool.jpg
+image: ../assets/img/highshool01.jpg
 category: 일상
 tags: 자퇴
 published: true
