@@ -10,7 +10,7 @@ published: true
 sitemap: true
 ---
 
-# <span style="color:Navy">배경(Background)
+# <span style="color:Navy">배경(Background)</span>
 배경의 색상, 이미지, 반복 여부, 위치, 고정 여부 등을 각각 기술할 수도 있고, 이 모든 속성을 한 줄로 표기할 수도 있습니다.
 
 # <span style="color:Navy">01 backgrund-color
