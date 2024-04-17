@@ -3,7 +3,7 @@ layout: post
 title: CSS backgrounddㅔ 대해서 알아봅니다.
 date: 2024-04-17 12:31 +0900
 description: 
-image: 
+image: ../assets/img/background.jpg
 category: Coding
 tags: background
 published: true
