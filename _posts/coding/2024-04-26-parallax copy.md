@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Gsap
+title: Gsap Parallax 기본 애니메이션
 date: 2024-04-17 17:31 +0900
-description: Parallax
+description: Parallax가 뭘까?
 image: ../assets/img/scroll.jpg
 category: javascript
 tags: parallax
