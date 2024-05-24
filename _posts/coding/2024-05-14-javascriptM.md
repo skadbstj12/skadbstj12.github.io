@@ -4,8 +4,8 @@ title: 자바스크립트 part1 (면접용)
 date: 2024-04-14 12:31 +0900
 description: 자바스크립트 면접용
 image: ../assets/img/css01.png
-category: javascript
-tags: javascript
+category: 면접질문
+tags: 면접질문
 published: true
 sitemap: true
 ---
