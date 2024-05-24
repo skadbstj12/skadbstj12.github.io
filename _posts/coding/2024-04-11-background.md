@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS background 주요 속성 정리
-date: 2024-04-17 12:31 +0900
+date: 2024-04-11 12:31 +0900
 description: 
 image: ../assets/img/background.jpg
 category: Coding

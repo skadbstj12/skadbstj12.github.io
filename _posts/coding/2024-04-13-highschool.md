@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 고등학교 자퇴생의 고등학교 자퇴 계기와 현실적인 후기
-date: 2024-04-17 23:48 +0900
+date: 2024-04-13 23:48 +0900
 description: 고등학교 자퇴 현실적인 후기를 남겨보겠습니다.
 image: ../assets/img/highschool01.jpg
 category: 고등학교

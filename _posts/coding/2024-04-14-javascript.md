@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript 연산자 정리
-date: 2024-04-26 17:31 +0900
+date: 2024-04-14 17:31 +0900
 description: Javascript 연산자
 image: ../assets/img/scroll.jpg
 category: javascript
